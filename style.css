@@ -1,0 +1,93 @@
+body{
+    background: #f57b51;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Arvo';
+    margin: 0;
+}
+
+
+.container{
+    
+    padding:  2% 15%;
+    background: #d63447;
+    /* background-image: url('backOne.jpg'); */
+    background-size: contain;
+    /* transform: skewY(-11deg); */
+}
+
+.content{
+    /* background: rgba(0, 0, 0, .6); */
+    padding:inherit ;
+    /* transform: skewY(11deg); */
+}
+
+
+.btn{
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 2;
+    color: #ffd31d;
+    display: inline-block;
+    background: #fff;
+    text-shadow: 3px 0 #DBEDF3;
+    /* border-radius: 15px; */
+    /* outline: dashed red; */
+    border-bottom-left-radius: 80px 80px;
+    
+}
+
+.a {
+    background-image: url('dalmatian.png');
+    /* background-repeat: no-repeat; */
+    /* background-attachment: ; */
+    background-position:65% top;
+  
+}
+
+.s {
+    background-image: url('chicken.jpg');
+    background-position:65% top ;
+}
+
+.d {
+    background-image: url('cow.jpg');
+    background-position:65% top ;
+}
+
+.f {
+    background-image: url('pig.jpg');
+    background-position:65% top ;
+}
+
+.g {
+    background-image: url('goat.png');
+    background-position:5% top ;
+}
+
+.h {
+    background-image: url('sheep.png');
+    background-position:1% 15% ;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+
+.footer{
+    
+    /* position: relative; */
+    /* background: yellow; */
+    margin-top: 4%;
+    width: 100%;
+}
+
+/* .footer p {
+        margin-bottom: 0;
+} */
